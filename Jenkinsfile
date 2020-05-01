@@ -21,6 +21,6 @@ node{
         sh 'docker pull ikramshahbaz/devops-image-1:1.0'
     }
         stage("Run Container"){
-        sh 'docker run -idt -p 8887:8080 ikramshahbaz/devops-image:1.0'
+        sh 'docker run -idt -p 8887:8888 ikramshahbaz/devops-image:1.0'
     }
 }
