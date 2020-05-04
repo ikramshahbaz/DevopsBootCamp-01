@@ -12,6 +12,6 @@ COPY ${JAR_FILE} cicd.jar
 
 RUN echo "I am creating an docker image for my spring boot application"
 
-MAINTAINER "shubhamkushwah123@gmail.com"
+MAINTAINER "Shahbaz Ikram"
 
 ENTRYPOINT ["java", "-jar", "cicd.jar"]
